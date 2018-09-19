@@ -1,0 +1,125 @@
+
+/* img principal */
+
+#imgCoffee{
+  margin-left: -225px;
+  margin-top: -27px;
+  width: 142.7%;
+}
+
+#info{
+  margin-top: -520px;
+  margin-left: 130px;
+  z-index: 3 !important;
+  position: relative;
+  color: white;
+}
+
+#info2{
+  margin-top: -440px;
+  margin-left: 130px;
+  z-index: 3 !important;
+  position: relative;
+  color: white;
+}
+
+/* botoes */
+#addUsuario{
+  border:  2px solid white;
+  margin-top: -240px;
+  margin-left: -85px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+
+#login{
+  margin-top: -680px;
+  margin-left: 280px;
+  position: relative;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+
+/* cards */
+.cartao{
+  margin-top: 83px;
+}
+
+.card{
+  height: 458px;
+}
+
+.card-content{
+  text-align: justify;
+}
+
+/* informações */
+#informacoes{
+  background-color: #1b5e20 !important;
+  position: relative;
+  margin-top: 120px;
+  margin-left: -226px;
+  margin-right: -224px;
+  padding: 125px 0;
+}
+
+.bloco1{
+  padding-left: 200px;
+  padding-right: 30px;
+  margin-top: 100px;
+}
+
+.bloco2{
+  padding-right: 200px;
+  padding-left: 30px;
+  margin-top: 100px;
+}
+
+#icones{
+  color: white;
+}
+
+.textInformacoes{
+  color: black;
+  font-size: 30px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  /*margin-top: 5%;*/
+}
+
+#iconeInfo{
+  width: 2%;
+  height: 2%;
+  margin-left: 4%;
+}
+.textInfo{
+ color: white;
+ font-size: 25px;
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+ text-align: center;
+}
+
+.textInfo2{
+  color: white;
+  font-size: 19px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+ }
+
+.text{
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: justify;
+}
+
+/* footer */
+.page-footer{
+  background-color: black !important;
+  position: relative;
+  margin-left: -226px;
+  margin-right: -224px;
+  text-align: center;
+  margin-top: -20px;
+}

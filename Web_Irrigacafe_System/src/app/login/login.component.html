@@ -1,0 +1,47 @@
+<div class="row login-page" >
+  <div class="s12">
+     <img src="..\assets\img\img_irrigacao.jpg" alt="" class="responsive-img" id="imgCafe">
+    <div class="col s4"></div>
+    <div class="col s8 z-depth-2 card-panel login animated fadeInDownBig">
+      <img id="profile-img" class="responsive-img" src="..\assets\img\logomarca2.png" />
+      <!-- Formulario -->
+      <form class="col s10 loginForm"(ngSubmit)=" validaLogin()">
+        <div class="row form-group">
+          <div class="input-field col s12">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="usuario" type="text" class="validate" required  [(ngModel)]="usuario.nome" name="text">
+            <label for="usuario" >Usuário</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+              <i class="material-icons prefix">https</i>
+              <input id="senha" type="password" class="validate" [(ngModel)]="usuario.senha" name="password">
+              <label for="senha">Senha</label>
+          </div>
+        </div>
+        <h4 class="textObrigatorio black-text"> Não tem uma conta?<a routerLink="/usuario/new">Crie uma!</a> </h4>
+        <div class="row">
+          <div class="input-field col s12">
+            <button class="btn waves-effect waves-light col s8" id="btnLogin" type="submit" name="action" [disabled]="!loginForm.form.valid" [routerLink]="['/dashboard']">Login
+            <!--<button class="btn waves-effect waves-light col s8" id="btnLogin" type="submit" name="action">Login-->
+              <!-- (click)="fazerLogin()"-->
+                <i class="material-icons right">send</i>
+              </button>
+          </div>
+        </div>
+        <div class="col s12 m2">
+            <i class="fa fa-times icon_style" id="alert_close" aria-hidden="true"></i>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+  $('#alert_close').click(function(){
+    $( "#alert_box" ).fadeOut( "slow", function() {
+    });
+    });
+
+</script>

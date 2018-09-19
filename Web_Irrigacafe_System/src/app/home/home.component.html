@@ -1,0 +1,111 @@
+<body>
+  <div id="home" class="row">
+    <div class="col s12">
+      <img class="profile-img-card"  id="imgCoffee" src="..\assets\img\img2_coffee.jpg" />
+      <div class="col s12 m4 l12 animated bounceInUp" id="info"><h3><b>Irrigacafé</b></h3></div>
+      <div class="col s12 m4 l6 animated bounceInUp" id="info2"><h4>O controle automatizado para a irrigação da sua plantação.</h4></div>
+      <div class="col s6 offset-s6">
+        <button class="btn waves-effect waves-light" type="submit" [routerLink]="['/usuario/new']" id="addUsuario">Cadastre-se
+          <i class="material-icons right">create</i>
+        </button>
+      </div>
+      <!-- Btn Login -->
+      <div class="col s6 offset-s6">
+        <button class="btn waves-effect waves-light" type="submit" [routerLink]="['/login']" id="login">Faça seu Login
+          <i class="material-icons right">person</i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="col s12">
+        <i class="large material-icons" id="icones">info</i>
+        <h4 class="textInformacoes"><!--<i class="large material-icons" style="color:black" id="iconeInfo">info_outline</i>-->Informações</h4>
+        <hr align="center" width="480" size="2" color=black>
+      </div>
+    <div class="col s12 m4 cartao">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="..\assets\img\img_irrigation.jpg" alt="" class="responsive-img">
+          </div>
+          <div class="card-action">
+              <a href="#">Irrigação</a>
+            </div>
+          <div class="card-content">
+            <p>A irrigação é uma técnica utilizada na agricultura com objetivo de obter fornecimento controlado de água para as plantas.</p>
+            <p> Garantindo maior produtividade e saúde da planta.</p>
+          </div>
+        </div>
+    </div>
+    <div class="col s12 m4 cartao">
+        <div class="card hoverable">
+          <div class="card-image">
+              <img src="..\assets\img\img_dashboard.jpg" alt="" class="responsive-img">
+          </div>
+          <div class="card-action">
+              <a href="#">Dashboard</a>
+          </div>
+          <div class="card-content">
+            <p> Consiste na representação visual das informações mais importantes e necessárias para alcançar os objetivos do negócio. Os dados são consolidados e ajustados na tela para fácil acompanhamento e controle.</p>
+          </div>
+        </div>
+    </div>
+    <div class="col s12 m4 cartao">
+        <div class="card hoverable">
+          <div class="card-image">
+              <img src="..\assets\img\img_embarcado.jpg" alt="" class="responsive-img">
+          </div>
+          <div class="card-action">
+              <a href="#">Embarcado</a>
+            </div>
+          <div class="card-content">
+            <p>É um sistema microprocessado no qual o computador é completamente encapsulado ou dedicado ao dispositivo que ele controla.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+
+   <!-- Informações -->
+    <div class="row" id="informacoes">
+      <div class="col s12">
+        <h4 class="textInfo">Conheça mais sobre o Irrigacafé</h4>
+        <hr align="center" width="480" size="2" color=white>
+      </div>
+      <div class="col s6 bloco1 ">
+        <div class="center-align animated fadeInLeftBig">
+          <i class="large material-icons" id="icones">phone_android</i>
+          <h4 class="textInfo2" id="tecnologia">Tecnologia</h4>
+        </div>
+        <h3 class="text animated fadeInLeftBig">A plataforma além de auxiliar na leitura dos dados, possibilita a plotagem dos gráficos de maneira rápida e fácil.Irrigacafé possibilita ao usuário relatórios gerenciais, um controle assíduo e moderno.</h3>
+      </div>
+      <div class="col s6 bloco2">
+        <div class="center-align animated fadeInRightBig">
+          <i class="large material-icons" id="icones">insert_chart</i>
+          <h4 class="textInfo2" id="textDashboard">Resultados</h4>
+        </div>
+        <h3 class="text animated fadeInRightBig">Esta função possibilita a produtores, engenheiros agrônomos e técnicos, fazendo com que o controle de umidade do solo seja automatizado e com isso minimizar os custos gerados e acesso mais rápido as informações. Outro fator importante é platagem dos gráficos em modo real e acesso a relatórios gerenciais.</h3>
+      </div>
+      <div class="col s6 bloco1">
+        <div class="center-align animated fadeInLeftBig">
+          <i class="large material-icons" id="icones">cloud</i>
+          <h4 class="textInfo2 animated fadeInLeftBig" >Cloud</h4>
+        </div>
+        <h3 class="text animated fadeInLeftBig"> Consiste em recursos aos quais não são vistos e garantem a você a segurança nas informações com rápido acesso as informações.</h3>
+      </div>
+      <div class="col s6 bloco2">
+        <div class="center-align animated fadeInRightBig">
+          <i class="large material-icons" id="icones">attach_money</i>
+          <h4 class="textInfo2" id="textDolar">Economia de Tempo e Dinheiro</h4>
+        </div>
+        <h3 class="text animated fadeInRightBig">A Irrigacafé fornece ao cliente uma solução automatizada, com alta qualidade, com custo acessível para o mercado cafeicultor e que acima de tudo mantenha um formato de suporte e usabilidade atendendo as necessidades existentes.</h3>
+      </div>
+    </div>
+  <!-- Footer -->
+  <footer class="page-footer">
+      <div class="footer-copyright" >
+        <div class="container"> © 2018 Copyright Irrigacafé
+        <a class="grey-text text-lighten-4 right" href="#!"><i class="material-icons right">lock</i></a>
+        </div>
+      </div>
+  </footer>
+</body>

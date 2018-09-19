@@ -1,0 +1,112 @@
+/* configuração cores do formulario */
+ /* label color */
+ .input-field{
+   color: #90a4ae;
+ }
+
+ .input-field label {
+  color: #ccc;
+}
+
+.input-field .prefix.active {
+  color: #c0ca33;
+}
+
+/* label focus color */
+.input-field input[type]:focus + label {
+  color: #c0ca33;
+}
+/* label underline focus color */
+.input-field input[type]:focus {
+  border-bottom: 1px solid #c0ca33;
+  box-shadow: 0 1px 0 0 #c0ca33;
+}
+
+
+/* demais configurações  */
+#imgPlantacao{
+  width: 200%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  margin-top: -87px;
+  margin-left: -159px;
+  background-attachment: inherit;
+}
+
+#imgPlantacao2{
+  width: 180%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: -14px 19px 47px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -14px 19px 47px -4px rgba(0,0,0,0.75);
+  box-shadow: -14px 19px 47px -4px rgba(0,0,0,0.75);
+}
+
+#imgForm{
+  margin-left: -30px;
+  position: relative;
+  margin-top: -4%;
+  padding: 0.5% 0;
+  -webkit-box-shadow: -8px -2px 29px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -8px -2px 29px -4px rgba(0,0,0,0.75);
+  box-shadow: -8px -2px 29px -4px rgba(0,0,0,0.75);
+  height: 15%;
+}
+
+#imgForm2{
+  margin-left: -40px;
+  position: relative;
+  margin-top: -45.8%;
+
+}
+
+#cardForm{
+  margin-left: 20px;
+  position: relative;
+  margin-top: -4%;
+  padding: 5% 0;
+  -webkit-box-shadow: 2px 4px 36px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 36px 4px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 36px 4px rgba(0,0,0,0.55);
+}
+
+#newUser{
+  margin-top: 88px;
+  margin-left: -80px;
+}
+
+#formUser{
+  margin-left: 30px;
+}
+
+.textInfo{
+  font-size: 18px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-left: 35px;
+  font-weight: bold;
+}
+
+.textObrigatorio{
+  font-size: 12px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: -15%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+/* botao */
+#btnRegistrar{
+  border:  2px solid #43a047;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  margin-left: 145px;
+  color: #43a047;
+}
+
+

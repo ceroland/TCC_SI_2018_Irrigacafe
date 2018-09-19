@@ -1,0 +1,66 @@
+.nav-wrapper{
+  background: #4abb59;
+
+}
+
+#profile-img{
+  width: 2.6%;
+  margin-left: 36px;
+  margin-top: 5px;
+}
+
+.search{
+  margin-left: -10%;
+}
+
+/* Menu Lateral */
+.side-nav{
+  width:260px;
+  margin-top: 65px;
+}
+
+.hover:hover{
+  background: #4abb59;
+
+}
+
+.material-icons:hover{
+  color: white;
+}
+
+.menuLateral{
+  margin-top: 45px;
+  position: relative;
+
+}
+
+#imgLateral{
+  width: 70%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.textLateral{
+  text-decoration: #1b5e20;
+  margin-left: 28%;
+  margin-top: 0.7%;
+  font-weight: bold;
+}
+.header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+
+.main-header{
+  position: relative;
+   width: 100%;
+  margin-top: -27px;
+  margin-left: -225px;
+
+}

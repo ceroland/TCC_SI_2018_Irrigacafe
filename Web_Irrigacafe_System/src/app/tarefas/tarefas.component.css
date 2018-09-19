@@ -1,0 +1,64 @@
+/* card */
+.card-panel{
+  font-size: 19px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  -webkit-box-shadow: -2px -1px 8px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px -1px 8px -1px rgba(0,0,0,0.75);
+  box-shadow: -2px -1px 8px -1px rgba(0,0,0,0.75);
+}
+
+.table{
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.responsive-table{
+  margin-top: 6%;
+}
+
+/* Botoes */
+.btnTable1{
+  margin-left: 163%;
+}
+
+.btnTable2{
+  margin-left: 115%;
+}
+
+.btnTable3{
+  margin-left: 63%;
+}
+.btnIncluir{
+  position: fixed;
+  margin-top: 4px;
+  margin-left: 940px;
+}
+
+.tituloTable1,{
+  font-size: 17px;
+}
+.tituloTable2{
+  font-size: 17px;
+}
+.tituloTable3{
+  font-size: 17px;
+}
+
+#gerenciaTarefas{
+  background-color: #FAD376;
+}
+
+.gradient-45deg-amber-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
+}
+
+.gradient-45deg-amber-amber {
+  background: #ff6f00;
+  background: -webkit-linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+  background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+}
+
+.white-text {
+  color: #FFFFFF !important;
+}

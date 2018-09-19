@@ -1,0 +1,46 @@
+<header class="main-header">
+<!-- Menu -->
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <img id="profile-img" class="img-responsive" alt="Responsive image" src="..\assets\img\logoNav.png" />
+        <a class="brand-logo" [routerLink]="['/']"></a>
+        <a href="#" data-activates="menu-mobile" class="button-collapse"> <i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+           <!-- <form>
+                <div class="input-field col s8 search">
+                  <input id="search" type="search" required>
+                  <label class="label-icon" for="search"><i class="material-icons white">search</i></label>
+                  <i class="material-icons">close</i>
+                </div>
+              </form>-->
+          <li>
+              <div class="input-field col s12">
+                  <i class="material-icons prefix">search</i>
+                  <input type="search" id="autocomplete-input" class="autocomplete">
+                  <label for="autocomplete-input"></label>
+                </div>
+          </li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons right">mdi action  input</i></a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <!-- Menu lateral -->
+    <ul class="side-nav fixed">
+      <img id="imgLateral" class="img-responsive" alt="Responsive image" src="..\assets\img\logomarca2.png" />
+      <li routerLinkActive=""><p class="textLateral">Bem-Vindo!</p></li>
+      <li class="menuLateral" routerLinkActive=""><a><i class="material-icons left ">dashboard</i>Dashboard</a></li>
+      <hr align="center" width="230" size="1.5" color=#616161>
+      <li><a class=" hover" [routerLink]="['/dashboard']"><i class="material-icons left ">home</i>Home</a></li>
+      <li routerLinkActive="active"><a class="hover"  [routerLink]="['/tarefas']"><i class="material-icons left ">assignment</i>Tarefas</a></li>
+      <li><a class="hover" href="#!"><i class="material-icons left">input</i>Logout</a></li>
+    </ul>
+  </div>
+  <!-- Mobile -->
+  <ul class="side-nav" id="menu-mobile">
+    <li class="text-white"><a href="sass.html"><i class="material-icons left">home</i>Home</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/dashboard']"><i class="material-icons left">dashboard</i>Dashboard</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/tarefas']"><i class="material-icons left">assignment</i>Tarefas</a></li>
+  </ul>
+</header>

@@ -1,0 +1,96 @@
+/* Cor Form Input */
+.input-field .prefix.active {
+  color: #c0ca33;
+}
+
+.input-field input[type]:focus + label {
+  color: #c0ca33;
+}
+
+.input-field input[type]:focus {
+  border-bottom: 1px solid #c0ca33;
+  box-shadow: 0 1px 0 0 #c0ca33;
+}
+
+/* img fundo */
+#imgCafe{
+  width: 200%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  margin-top: -27px;
+  margin-left: -217px;
+  background-attachment: inherit;
+}
+
+/* card login */
+.login-page {
+  width: 550px;
+ /* margin-left: 100px;
+  margin-top: 70px;*/
+}
+
+.login{
+  position: relative;
+  padding: 4.5% 0;
+  -webkit-box-shadow: 2px 4px 36px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 36px 4px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 36px 4px rgba(0,0,0,0.55);
+  margin-left: 58%;
+  margin-top: 7%;
+}
+
+.row .col.s8 {
+  width: 66.6666666667%;
+  /* margin-left: auto; */
+  left: auto;
+  right: auto;
+  margin-top: 90px;
+}
+/* formulario */
+.loginForm{
+  padding-left: -6%;
+}
+
+#btnLogin{
+  margin-left: 65px;
+  margin-top: -5px;
+  background-color: #43a047;
+}
+
+#placeholder{
+  -webkit-input-placeholder:( #43a047);
+}
+
+#profile-img{
+  width: 70%;
+  position: relative;
+  margin-left: 40px;
+  margin-top: 13px;
+}
+
+#imgCoffee{
+  margin-left: -210px;
+  margin-top: -35px;
+}
+
+/* alert */
+.icon_style{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: white;
+  cursor:pointer;
+}
+
+.textObrigatorio{
+  font-size: 13px;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: -15%;
+  margin-left: 22%;
+  /*font-weight: bold; */
+}
+

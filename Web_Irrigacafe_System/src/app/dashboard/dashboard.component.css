@@ -1,0 +1,71 @@
+.dashboard{
+  width: 100% !important;
+  position: absolute;
+  background-color: #F2F2F2;
+}
+
+.card1{
+  margin-left: 10%;
+}
+
+.card2{
+  margin-left: 10%;
+}
+
+h4{
+  text-align: left;
+  font-size: 20px;
+  margin-top: 43px;
+  margin-left: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+/* grafico */
+#donut_chart{
+  margin-left: 36%;
+  margin-top: -36%;
+}
+
+/*monitoramento pdf */
+#data{
+  margin-top: -219px;
+  margin-left: 40px;
+  color: black;
+  /*background-color: #2ACBAB;*/
+  position: relative;
+}
+
+#btnPdf{
+  background-color: #FF8000;
+  width: 30%;
+  margin-top:-298px;
+  margin-left: 373px;
+}
+
+.gradient-45deg-amber-amber.gradient-shadow {
+  box-shadow: 0 6px 20px 0 rgba(255, 111, 0, 0.3);
+}
+
+.gradient-45deg-amber-amber {
+  background: #ff6f00;
+  background: -webkit-linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+  background: linear-gradient(45deg, #ff6f00 0%, #ffca28 100%);
+}
+
+/* gif e imagens metereologia*/
+#gifMetereologia {
+  width: 95%;
+  margin-left: 2%;
+  margin-top: 6%;
+}
+
+.metereologia {
+  width: 24%;
+  margin-top: 2%;
+}
+
+.card-stats-number{
+  margin-top: 6%;
+  margin-left: 3%;
+  font-size: 30px;
+}

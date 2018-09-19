@@ -1,0 +1,55 @@
+ <!-- Início do header -->
+<app-header></app-header>
+<div class="col s12 table">
+  <div class="card-panel hoverable gradient-45deg-amber-amber gradient-shadow min-height-100 white-text" id="gerenciaTarefas">
+      <span class="text-darken-2">Gerencie as suas tarefas</span>
+  </div>
+  <a class="btn-floating btn-large waves-effect waves-light green btnIncluir" title="Incluir Tarefa"routerLink="/tarefas/new"><i class="material-icons">add</i></a>
+  <table class="highlight mdl-shadow--2dp responsive-table">
+    <thead>
+      <form action="#">
+        <p>
+          <label>
+            <input type="checkbox" />
+          </label>
+        </p>
+      </form>
+      <tr class="col s10">
+        <th class="tituloTable1">Finalizadas</th>
+        <th class="tituloTable2">Data</th>
+        <th class="tituloTable3">Tarefa</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let tarefa of tarefas">
+        <td>{{ tarefa.finalizadaFormat }}</td>
+        <td>{{ tarefa.date | date:'dd/MM/yyyy'}}</td>
+        <td>{{ tarefa.desc_tarefa }}</td>
+
+        <!-- Botoes -->
+        <td>
+          <button class="btn-floating waves-effect waves-light orange btnTable1" title="Editar Tarefa" type="submit" name="action" [routerLink]="['/tarefas/edit', tarefa.id_tarefa]">
+            <i class="material-icons right">create</i>
+          </button>
+        </td>
+        <td>
+          <button class="btn-floating waves-effect waves-light red btnTable2"  title="Deletar Tarefa"type="submit" name="action" (click)="deleteTarefa(tarefa)" href="">
+            <i class="material-icons right">delete</i>
+          </button>
+          <!--<a (click)="deleteTarefa(tarefa)" href="">Deletar</a>-->
+        </td>
+        <td>
+          <button class="btn-floating waves-effect waves-light  light-blue  btnTable3"  title="Finalizar Tarefa"type="submit" name="action" (click)="finalizaTarefa(tarefa)" href="">
+            <i class="material-icons right">assignment_turned_in</i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+

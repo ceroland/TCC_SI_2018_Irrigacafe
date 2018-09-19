@@ -1,0 +1,63 @@
+<body>
+  <!-- Início do header -->
+  <app-header></app-header>
+  <div class="container dashboard">
+    <div class="row">
+      <div class="card card1">
+        <div class="col s4">
+          <div class="card small hoverable">
+            <div class="card-content gradient-shadow gradient-45deg-red-pink border-radius-3 white-text" style="background-color:#ffbd35;">
+              <p class="card-stats-title"><i class="material-icons left">wb_sunny</i> Metereologia</p>
+            </div>
+            <div class="col s6">
+              <!--<div id="donut_chart"></div>-->
+              <img id="gifMetereologia" class="responsive-img" src="..\assets\img\gifs\metereologiaSolNuvem.gif" />
+            </div>
+            <!-- dados de temperatura e umidade !-->
+            <div class="col s6">
+              <h4 class="card-stats-number"><img class="responsive-img metereologia" src="..\assets\img\iconTemperatura.png"/> {{temperatura}}°C</h4>
+              <h4 class="card-stats-number"> <img class="responsive-img metereologia" src="..\assets\img\iconUmidade.png"/> {{umidade}} %</h4>
+            </div>
+            <div class="card-action">
+              <div id="invoice-line" class="center-align">
+                <span>Área 1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Card PDF -->
+        <div class="col s6">
+          <div class="card small hoverable" id="pdf">
+            <div class="card-content blue-grey darken-2 white-text" >
+              <p class="card-stats-title"><i class="material-icons left">assignment_turned_in</i> Monitoramento</p>
+            </div>
+          </div>
+            <button class="btn waves-effect waves-light gradient-45deg-amber-amber.gradient-shadow col s8" id="btnPdf" type="submit" name="action" (click)="generatePDF()" >Imprimir
+              <i class="material-icons right">local_printshop</i>
+            </button>
+            <div class="col s10 m6 l10" id="data">
+              <i class="material-icons left">insert_invitation</i><span>Data Inicial:</span>
+              <input type="date" class="datepicker" id="calendario">
+              <i class="material-icons left">insert_invitation</i><span>Data Final:</span>
+              <input type="date" class="datepicker" id="calendario">
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card Grafico -->
+    <div class="row">
+      <div class="card card2 hoverable">
+        <div class="col s10">
+            <div class="card-content white-text" style="background-color:#3a5898;">
+              <p class="card-stats-title"><i class="material-icons left">insert_chart</i> Leituras do Tensiometro</p>
+            </div>
+          <div class="card large hoverable ">
+            <div id="line_chart"></div>
+            <!-- Card Content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
