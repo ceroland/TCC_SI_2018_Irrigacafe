@@ -132,8 +132,8 @@ export class DashboardComponent implements OnInit {
       data.addColumn('number', 'Tensiometro 1 - (Kpa)');
       data.addColumn('number', 'Tensiometro 2 - (Kpa)');
       data.addColumn('number', 'Tensiometro 3 - (Kpa)');
-     // data.addRows(this.dadosFormatados);
-     data.addRows(this.dados);
+      data.addRows(this.dadosFormatados);
+      // data.addRows(this.dados);
 
       return data;
     }
