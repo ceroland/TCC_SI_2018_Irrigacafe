@@ -27,11 +27,11 @@ O Fluxograma tem por finalidade a representativa de todo o processo que envolve 
 
 ![GitHub Diagrama](/Image_README/Diagrama-de-Fluxo.png)
 
-# Tensiômetro Automatizado 
+## Tensiômetro Automatizado 
 <p> Foi realizado o protótipo do tensiômetro com sistemas embarcados, utilizando sensores de temperatura e umidade e sensor de pressão para
 coleta dos dados e envio dos mesmos para o servidor em nuvem CloudMQTT.</p>
 
-# Sistema Web - Dashboard
+## Sistema Web - Dashboard
 <p>A aplicação desenvolvida mostrar os gráficos das leituras realizadas pelo tensiômetro em comunicação com a CloudMQTT. 
 Além de mostrar os dados de temperatura e umidade coletados do sensor DHT11 e mostrados no dashboard.
 O sistema ainda conta com o gerenciamento de tarefas com intuito na organização das tarefas que devem ser executadas na lavoura ou no campo</p>
